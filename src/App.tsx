@@ -1,3 +1,17 @@
+import {
+  HomeLayout,
+  Landing,
+  Error,
+  Products,
+  SingleProduct,
+  Cart,
+  About,
+  Register,
+  Login,
+  Checkout,
+  Orders,
+} from './pages';
+
 import { Button } from "@/components/ui/button"
 import { useAppSelector } from "./hooks"
 
