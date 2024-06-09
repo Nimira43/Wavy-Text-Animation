@@ -7,9 +7,11 @@ function Cart() {
       <Link to='/' className='text-7xl text-[#ff4500]'>
         back home
       </Link>
-      <Button asChild size='lg'>
-        <Link to='/'>home button</Link>
-      </Button>
+      <div>
+        <Button asChild size='lg'>
+          <Link to='/'>home button</Link>
+        </Button>
+      </div>
     </div>
   );
 }
