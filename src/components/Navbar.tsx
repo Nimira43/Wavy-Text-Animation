@@ -3,7 +3,7 @@ import { CartButton, LinksDropdown, Logo, ModeToggle, NavLinks } from "."
 
 function Navbar() {
   return (
-    <nav className='bg-muted py-4 weight-bold'>
+    <nav className='bg-muted py-4 font-bold'>
         <div className="align-element flex justify-between items-center ">
           <Logo />
           <LinksDropdown />
