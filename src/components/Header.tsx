@@ -14,13 +14,12 @@ function Header() {
         navigate('/')
   }
     return (
-        <header className="bg-[#ddeaef]">
-            <div className='align-element flex justify-center sm:justify-end py-2 text-[#ff4500]'>
+        <header>
+            <div className='align-element flex justify-center sm:justify-end py-2'>
                 {user ?
                     <div className='flex gap-x-2 sm:gap-x-8 items-center'>
                         <p className="text-xs sm:text-sm">Hello {user.username}</p>
                         <Button
-                            className="text-[#ff4500]"
                             variant='link'
                             size='sm'
                             onClick={handleLogout}>
