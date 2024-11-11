@@ -1,6 +1,6 @@
 
-import { Moon, Sun } from "lucide-react"
-import { useAppDispatch } from "@/hooks"
+import { Moon, Sun } from 'lucide-react'
+import { useAppDispatch } from '@/hooks'
 import { Button } from '@/components/ui/button'
 import {
   DropdownMenu,
@@ -8,7 +8,7 @@ import {
   DropdownMenuContent,
   DropdownMenuTrigger
 } from '@/components/ui/dropdown-menu';
-import { setTheme } from "@/features/theme/themeSlice";
+import { setTheme } from '@/features/theme/themeSlice';
 
 function ModeToggle() {
   const dispatch = useAppDispatch()

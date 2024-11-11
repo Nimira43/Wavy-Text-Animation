@@ -1,4 +1,4 @@
-import { useRouteError, Link, isRouteErrorResponse } from "react-router-dom";
+import { useRouteError, Link, isRouteErrorResponse } from 'react-router-dom';
 import { Button } from '@/components/ui/button'
 
 function Error() {
@@ -7,13 +7,13 @@ function Error() {
   if (isRouteErrorResponse(error) && error.status === 404) {
     return (
       <main className='grid min-h-[100vh] place-items-center px-8'>
-        <div className="text-center">
-          <p className="text-9xl font-semibold text-primary">404</p>
-          <h1 className="mt-4 text-3xl font-bold tracking-tight sm:text-5xl">Page Not Found</h1>
-          <p className="mt-6 text-lg leading-7">
+        <div className='text-center'>
+          <p className='text-9xl font-semibold text-primary'>404</p>
+          <h1 className='mt-4 text-3xl font-bold tracking-tight sm:text-5xl'>Page Not Found</h1>
+          <p className='mt-6 text-lg leading-7'>
             We couldn't find the page you're looking for.
           </p>
-          <div className="mt-10">
+          <div className='mt-10'>
             <Button
               asChild
               size='lg'
@@ -28,7 +28,7 @@ function Error() {
   }
   return (
     <main className='grid min-h-[100vh] place-items-center px-8'>
-      <h4 className="text-center font-bold text-4xl">There was an error...</h4>
+      <h4 className='text-center font-bold text-4xl'>There was an error...</h4>
     </main>   
   )
 }

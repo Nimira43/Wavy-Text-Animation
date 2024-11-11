@@ -1,6 +1,6 @@
-import { Link, useNavigate } from "react-router-dom"
-import { Button } from "./ui/button"
-import { useState } from "react"
+import { Link, useNavigate } from 'react-router-dom'
+import { Button } from './ui/button'
+import { useState } from 'react'
 
 function Header() {
     const navigate = useNavigate()
@@ -18,7 +18,7 @@ function Header() {
             <div className='align-element flex justify-center sm:justify-end py-2'>
                 {user ?
                     <div className='flex gap-x-2 sm:gap-x-8 items-center'>
-                        <p className="text-xs sm:text-sm">Hello {user.username}</p>
+                        <p className='text-xs sm:text-sm'>Hello {user.username}</p>
                         <Button
                             variant='link'
                             size='sm'
