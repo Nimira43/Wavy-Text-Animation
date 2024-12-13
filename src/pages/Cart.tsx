@@ -1,5 +1,5 @@
-import { Button } from '@/components/ui/button';
-import { Link } from 'react-router-dom';
+import { Button } from '@/components/ui/button'
+import { Link } from 'react-router-dom'
 
 function Cart() {
   return (
@@ -14,6 +14,6 @@ function Cart() {
         </Button>
       </div>
     </div>
-  );
+  )
 }
-export default Cart;
+export default Cart
