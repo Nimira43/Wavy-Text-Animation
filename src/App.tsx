@@ -68,9 +68,9 @@ const router = createBrowserRouter([
     element: <Register />,
     errorElement: <Error />
   },
-]);
+])
 
 const App = () => {
-  return <RouterProvider router={router} />;
-};
-export default App;
+  return <RouterProvider router={router} />
+}
+export default App
