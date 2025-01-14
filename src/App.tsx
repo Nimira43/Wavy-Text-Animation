@@ -1,15 +1,13 @@
-import { Button } from './components/ui/button';
+import { Button } from './components/ui/button'
 
 function App() {
   return (
     <div>
-      <h1 className='text-7xl font-bold '>App</h1>
+      <h1 className='text-3xl font-bold '>E Bazaar</h1>
       <Button
-        variant='destructive'
-        size='lg'
-        onClick={() => console.log('it worked!!!')}
+        onClick={() => console.log('Test worked')}
       >
-        Click Me
+        Submit
       </Button>
     </div>
   )
