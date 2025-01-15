@@ -2,7 +2,7 @@ import { Button } from './components/ui/button'
 import { useAppSelector } from './hooks'
 
 function App() {
-  const { name } = useAppSelector((state) => state.userState);
+  const { name } = useAppSelector((state) => state.userState)
   console.log(name)
   return (
     <div>
