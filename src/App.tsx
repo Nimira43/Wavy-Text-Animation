@@ -1,9 +1,7 @@
+import { useAppSelector } from './hooks'
 function App() {
-  return (
-    <div className="bg-[#111] p-6">
-      <h1 className='text-4xl text-[#ff4500]'>E-Bazaar</h1>
-    </div>
-  )
+  const { name } = useAppSelector((state) => state.userState);
+  console.log(name)
 }
 
 export default App
