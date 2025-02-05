@@ -6,7 +6,7 @@ import NavLinks from './NavLinks'
 
 const Navbar = () => {
   return (
-    <nav className='bg-[#87ceeb] py-4'>
+    <nav className='bg-[#f2f2f2] py-4'>
       <div className='align-element flex justify-between items-center'>
         <Logo />
         <LinksDropdown />
