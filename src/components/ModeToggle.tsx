@@ -9,7 +9,7 @@ import {
 import { setTheme } from '../features/theme/themeSlice'
 
 function ModeToggle() {
-  const dispatch = useAppDispatch();
+  const dispatch = useAppDispatch()
 
   return (
     <DropdownMenu>
