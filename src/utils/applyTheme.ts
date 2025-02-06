@@ -11,7 +11,7 @@ export function applyTheme(theme: Theme) {
       ? 'dark'
       : 'light'
 
-    root.classList.add(systemTheme);
+    root.classList.add(systemTheme)
     return
   }
 
