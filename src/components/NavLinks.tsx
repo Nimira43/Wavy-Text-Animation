@@ -9,8 +9,8 @@ function NavLinks() {
           <NavLink
             to={link.href}
             className={({ isActive }) => {
-              return `capitalize font-light tracking-wide ${
-                isActive ? 'text-primary' : ''
+              return `uppercase font-medium hover:text-teal tracking-wide ${
+                isActive ? 'text-teal' : ''
               }`
             }}
             key={link.label}

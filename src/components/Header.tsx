@@ -20,7 +20,11 @@ const Header = () => {
         {user ? (
           <div className='flex gap-x-2 sm:gap-x-8 items-center'>
             <p className='text-xs sm:text-sm'>Hi, {user.username}</p>
-            <Button size='sm' onClick={handleLogout}>
+            <Button
+              className='uppercase'
+              size='sm'
+              onClick={handleLogout}
+            >
               Logout
             </Button>
           </div>

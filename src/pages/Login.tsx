@@ -1,6 +1,6 @@
 function Login() {
   return (
-    <h1 className='text-2xl'>Login Page</h1>
+    <h1 className='text-2xl uppercase'>Login Page</h1>
   )
 }
 export default Login
