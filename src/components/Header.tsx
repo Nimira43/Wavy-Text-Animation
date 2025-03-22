@@ -29,11 +29,11 @@ const Header = () => {
             </Button>
           </div>
         ) : (
-          <div className='flex gap-x-6 justify-center items-center -mr-4'>
-            <Button asChild variant='link' size='sm'>
+          <div className='flex gap-x-6 justify-center items-center -mr-4 uppercase'>
+            <Button asChild size='sm'>
               <Link to='/login'>Sign In</Link>
             </Button> 
-            <Button asChild variant='link' size='sm'>
+            <Button asChild size='sm'>
               <Link to='/register'>Register</Link>
             </Button> 
           </div>
