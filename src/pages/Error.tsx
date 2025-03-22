@@ -15,7 +15,19 @@ function Error() {
         </h1>
         <p className='mt-6 text-lg leading-7'>We cannot find the page that you are looking for.</p>
       </div>
-      <div></div>
+      <div className='mt-10'>
+        <Button
+          asChild 
+          size='lg'  
+        >
+          <Link
+            to='/'
+            className='uppercase'
+          >
+            Home
+          </Link>
+        </Button>
+      </div>
     </main>
   }
   return <h1 className='text-2xl'>Error Page</h1>
