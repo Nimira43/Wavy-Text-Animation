@@ -30,6 +30,10 @@ function Error() {
       </div>
     </main>
   }
-  return <h1 className='text-2xl'>Error Page</h1>
+  return (
+    <main className='grid min-h-[100vh] place-items-center px-8'>
+      <h4 className='text-center font-semibold text-4xl'>There was an unexpected error...</h4>
+    </main>
+  )
 }
 export default Error
