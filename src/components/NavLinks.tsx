@@ -10,7 +10,7 @@ function NavLinks() {
             to={link.href}
             className={({ isActive }) => {
               return `uppercase font-medium hover:text-teal tracking-wide ${
-                isActive ? 'text-teal' : ''
+                isActive ? 'text-prime' : ''
               }`
             }}
             key={link.label}
