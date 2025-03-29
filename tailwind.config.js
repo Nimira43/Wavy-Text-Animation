@@ -11,6 +11,7 @@ export default {
   		},
 			colors: {
 				'prime': '#ff4500',
+				'light': '#fffcfa',
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
   			card: {
