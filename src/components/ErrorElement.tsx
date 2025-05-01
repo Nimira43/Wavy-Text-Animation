@@ -1,3 +1,5 @@
+import { useRouteError } from 'react-router-dom'
+
 function ErrorElement() {
   return (
     <div>
