@@ -1,10 +1,10 @@
 function About() {
   return (
     <section>
-      <h1 className='flex flex-wrap gap-2 sm:gap-x-6 items-center justify-center text-4xl font-bold leading-none tracking-tight sm:text-6xl '>
+      <h1 className='flex flex-wrap gap-2 sm:gap-x-6 items-center justify-center text-4xl font-medium leading-none tracking-tight sm:text-6xl '>
         Elliot's
-        <span className='bg-primary py-2 px-4 rounded-lg tracking-widest text-light'>
-          e-bazaar
+        <span className='bg-prime pb-2 px-4 rounded-lg text-light logo pt-4'>
+          e-Bazaar
         </span>
       </h1>
 
