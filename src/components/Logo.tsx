@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { TfiLayoutAccordionList } from 'react-icons/tfi'
+import { GiBarracksTent } from 'react-icons/gi'
 
 function Logo() {
   return (
@@ -7,7 +7,7 @@ function Logo() {
       to='/'
       className='hidden lg:flex justify-center items-center p-2 rounded-lg '
     >
-      <TfiLayoutAccordionList className='w-8 h-8' />
+      <GiBarracksTent className='w-8 h-8' />
     </Link>
   );
 }
