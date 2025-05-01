@@ -6,7 +6,7 @@ import {
 } from '../components/ui/dropdown-menu'
 import { HiOutlineMenu } from "react-icons/hi"
 import { Button } from './ui/button'
-import { links } from './utils/links'
+import { links } from '../utils'
 import { NavLink } from 'react-router-dom'
 
 function LinksDropdown() {
