@@ -1,6 +1,11 @@
+import { Hero, FeaturedProducts } from '../components'
+
 function Landing() {
   return (
-    <h1 className='text-2xl'>Landing Page</h1>
+    <>
+      <Hero />
+      <FeaturedProducts />
+    </>
   )
 }
 export default Landing
