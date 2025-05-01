@@ -1,9 +1,10 @@
 function About() {
+  ffdfdfd
   return (
     <section>
       <h1 className='flex flex-wrap gap-2 sm:gap-x-6 items-center justify-center text-4xl font-bold leading-none tracking-tight sm:text-6xl '>
         Elliot's
-        <span className='bg-primary py-2 px-4 rounded-lg  tracking-widest text-light'>
+        <span className='bg-primary py-2 px-4 rounded-lg tracking-widest text-light'>
           e-bazaar
         </span>
       </h1>
