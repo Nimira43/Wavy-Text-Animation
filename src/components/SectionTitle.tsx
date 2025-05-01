@@ -3,7 +3,10 @@ import { Separator } from './ui/separator'
 const SectionTitle = ({ text }: { text: string }) => {
   return (
     <div>
-      Section Title      
+      <h2 className='text-3xl font-medium uppercase mb-8'>
+        {text}
+      </h2>   
+      <Separator />
     </div>
   )
 }
