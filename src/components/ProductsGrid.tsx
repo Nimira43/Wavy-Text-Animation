@@ -1,5 +1,5 @@
 import { Link, useLoaderData } from 'react-router-dom'
-import { ProductsResponse } from '../utils'
+import { formatAsPounds, ProductsResponse } from '../utils'
 import { Card, CardContent } from './ui/card'
 
 const ProductsGrid = () => {
@@ -21,15 +21,18 @@ const ProductsGrid = () => {
                   className='rounded-md h-64 md:h-48 w-full object-cover'
                 />
                 <div className='mt-4 text-center'>
-                  <h2 className='text-xl font-medium uppercase'>{title}</h2>
+                  <h2 className='text-xl font-medium uppercase'>
+                    {title}
+                  </h2>
+                  <p className='text-prime font-light mt-2'>
+                    {poundsAmount}
+                  </p>
                 </div>
               </CardContent>
             </Card>
           </Link>
-          
         )
       })}
-      
     </div>
   )
 }
