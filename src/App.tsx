@@ -11,6 +11,7 @@ import {
   Checkout,
   Orders,
 } from './pages'
+import { ErrorElement } from './components'
 
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 
