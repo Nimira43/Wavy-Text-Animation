@@ -1,9 +1,15 @@
-function ProductsGrid() {
+import { useLoaderData } from 'react-router-dom'
+import { ProductsResponse } from '../utils'
+
+const ProductsGrid = () => {
+  const { data: products} = useLoaderData as ProductsResponse
+  
   return (
     <div>
-      Prdoucts Grid
+      
     </div>
   )
 }
 
 export default ProductsGrid
+
