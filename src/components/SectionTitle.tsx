@@ -1,7 +1,6 @@
 import { Separator } from './ui/separator'
 
-
-function SectionTitle() {
+const SectionTitle = ({ text }: { text: string }) => {
   return (
     <div>
       Section Title      
@@ -10,3 +9,5 @@ function SectionTitle() {
 }
 
 export default SectionTitle
+
+
