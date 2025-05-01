@@ -1,3 +1,6 @@
+import { Separator } from './ui/separator'
+
+
 function SectionTitle() {
   return (
     <div>
