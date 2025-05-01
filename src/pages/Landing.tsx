@@ -6,10 +6,13 @@ const url = '/products?featured=true'
 
 export const loader: LoaderFunction = async (): Promise<ProductsResponse> => {
   const response = await customFetch<ProductsResponse>(url)
-  return { ...response.data}
+  return { ...response.data }
 }
 
 function Landing() {
+  const result = useLoaderData() as ProductsResponse
+  console.log(result)
+
   return (
     <>
       <Hero />
