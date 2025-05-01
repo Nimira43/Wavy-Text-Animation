@@ -1,8 +1,10 @@
-import CartButton from './CartButton'
-import LinksDropdown from './LinksDropdown'
-import Logo from './Logo'
-import ModeToggle from './ModeToggle'
-import NavLinks from './NavLinks'
+// import CartButton from './CartButton'
+// import LinksDropdown from './LinksDropdown'
+// import Logo from './Logo'
+// import ModeToggle from './ModeToggle'
+// import NavLinks from './NavLinks'
+
+import { CartButton, LinksDropdown, Logo, ModeToggle, NavLinks } from './index'
 
 const Navbar = () => {
   return (
