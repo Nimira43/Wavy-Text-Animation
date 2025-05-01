@@ -1,5 +1,6 @@
 import { Link, useLoaderData } from 'react-router-dom'
 import { ProductsResponse } from '../utils'
+import { Card, CardContent } from './ui/card'
 
 const ProductsGrid = () => {
   const { data: products} = useLoaderData as ProductsResponse
@@ -12,7 +13,18 @@ const ProductsGrid = () => {
 
         return (
           <Link to={`/products/${product.id}`} key={product.id}>
-            
+            <Card>
+              <CardContent className='p-4'>
+                <img
+                  src={image}
+                  alt={title}
+                  className='rounded-md h-64 md:h-48 w-full object-cover'
+                />
+                <div className='mt-4 text-center'>
+                  <h2 className='text-xl font-medium uppercase'>{title}</h2>
+                </div>
+              </CardContent>
+            </Card>
           </Link>
           
         )
