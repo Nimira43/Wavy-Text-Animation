@@ -1,7 +1,11 @@
-function FeaturedProducts() {
+import ProductsGrid from './ProductsGrid'
+import SectionTitle from './SectionTitle'
+
+const FeaturedProducts = () => {
   return (
     <div>
-      Featured Page      
+      <SectionTitle text='featured products' />
+      <ProductsGrid />
     </div>
   )
 }
