@@ -8,6 +8,7 @@ function Logo() {
       className='hidden lg:flex justify-center items-center p-2 rounded-lg '
     >
       <GiBarracksTent className='w-8 h-8' />
+      <span className='ml-2 text-3xl pt-3 logo'>e-Bazaar</span>
     </Link>
   );
 }

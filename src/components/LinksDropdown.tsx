@@ -4,7 +4,7 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from '../components/ui/dropdown-menu'
-import { PiAlignLeft } from 'react-icons/pi'
+import { HiOutlineMenu } from "react-icons/hi"
 import { Button } from './ui/button'
 import { links } from './utils/links'
 import { NavLink } from 'react-router-dom'
@@ -14,8 +14,7 @@ function LinksDropdown() {
     <DropdownMenu>
       <DropdownMenuTrigger asChild className='lg:hidden'>
         <Button variant='outline' size='icon'>
-          <PiAlignLeft />
-
+          <HiOutlineMenu />
           <span className='sr-only'>Toggle links</span>
         </Button>
       </DropdownMenuTrigger>
