@@ -3,10 +3,10 @@ import SectionTitle from './SectionTitle'
 
 const FeaturedProducts = () => {
   return (
-    <div>
+    <section className='pt-24'>
       <SectionTitle text='featured products' />
       <ProductsGrid />
-    </div>
+    </section>
   )
 }
 
