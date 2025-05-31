@@ -23,6 +23,10 @@ const ProductsList = () => {
                   alt={title}
                   className='h-64 w-full md:h-48 md:w-48 rounded-md object-cover'
                 />
+                <div>
+                  <h2 className='text-xl font-medium uppercase'>{title}</h2>
+                  <h4>{company}</h4>
+                </div>
               </CardContent>
             </Card>
 
