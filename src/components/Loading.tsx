@@ -1,4 +1,4 @@
-import { Skeleton } from "./ui/skeleton"
+import { Skeleton } from './ui/skeleton'
 
 function Loading() {
   return (
@@ -11,9 +11,12 @@ function Loading() {
               className='flex flex-col space-y-3'
             >
               <Skeleton 
-                className='h-[125px] w-full rounded-lg'
+                className='h-[125px] w-full rounded-xl'
               />
-              
+              <div className='space-y-2'>
+                <Skeleton className='h-4 mx-auto w-[250px]' />
+                <Skeleton className='h-4 mx-auto w-[200px]' />
+              </div>
             </div>
           )
         })}
