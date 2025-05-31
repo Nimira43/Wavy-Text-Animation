@@ -1,6 +1,4 @@
-import Filters from '../components/Filters'
-import PaginationContainer from '../components/PaginationContainer'
-import ProductsContainer from '../components/ProductsContainer'
+import { Filters, PaginationContainer, ProductsContainer  } from '../components'
 import { customFetch, type ProductsResponse }  from '../utils'
 import { type LoaderFunction } from 'react-router-dom'
 
