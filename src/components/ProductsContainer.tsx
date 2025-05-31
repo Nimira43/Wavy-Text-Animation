@@ -2,12 +2,12 @@ import { useLoaderData } from 'react-router-dom'
 import { ProductsResponse } from '../utils'
 import { useState } from 'react'
 import { Button } from './ui/button'
-import { IoGridOutline } from 'react-icons/io5'
+import { IoGridOutline, IoList  } from 'react-icons/io5'
 
 const ProductsContainer = () => {
   const { meta } = useLoaderData() as ProductsResponse
   const totalProducts = meta.pagination.total
-  const [layout, setLayout] = useState<'grid' | 'list'>
+  const [layout, setLayout] = useState<'grid' | 'list'>('grid')
 
   return (
     <section>
@@ -22,6 +22,13 @@ const ProductsContainer = () => {
             size='icon'
           >
             <IoGridOutline />
+          </Button>
+          <Button
+            onClick={() => setLayout('list')}
+            variant={layout === 'list' ? 'default' : 'ghost'}
+            size='icon'
+          >
+            <IoList />
           </Button>
         </div>
       </div>      
