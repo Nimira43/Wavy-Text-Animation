@@ -1,3 +1,5 @@
+import { Skeleton } from "./ui/skeleton"
+
 function Loading() {
   return (
     <div className='pt-12 grid gap-4 md:grid-cols-2 lg:grid-cols-3'>
@@ -8,6 +10,9 @@ function Loading() {
               key={ index }
               className='flex flex-col space-y-3'
             >
+              <Skeleton 
+                className='h-[125px] w-full rounded-lg'
+              />
               
             </div>
           )
