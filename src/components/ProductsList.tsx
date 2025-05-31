@@ -27,9 +27,9 @@ const ProductsList = () => {
                   <h2 className='text-xl font-medium uppercase'>{title}</h2>
                   <h4>{company}</h4>
                 </div>
+                <p className='text-prime md:ml-auto'>{poundsAmount}</p>
               </CardContent>
             </Card>
-
           </Link> 
         )
       })}      
