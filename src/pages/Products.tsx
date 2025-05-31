@@ -1,6 +1,17 @@
-function Products() {
+import Filters from '../components/Filters'
+import PaginationContainer from '../components/PaginationContainer'
+import ProductsContainer from '../components/ProductsContainer'
+import { customFetch, type ProductsResponse }  from '../utils'
+import { type LoaderFunction } from 'react-router-dom'
+
+const ProductsList = () => {
   return (
-    <h1 className='text-2xl'>Products Page</h1> 
+    <>
+      <Filters />
+      <ProductsContainer />
+      <PaginationContainer />
+    </>
   )
 }
-export default Products
+
+export default ProductsList
