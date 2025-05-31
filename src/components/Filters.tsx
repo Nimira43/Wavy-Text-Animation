@@ -1,6 +1,7 @@
-import { Form } from 'react-router-dom'
+import { Form, Link } from 'react-router-dom'
 import { Label } from './ui/label'
 import { Input } from './ui/input'
+import { Button } from './ui/button'
 
 const Filters = () => {
   return (
@@ -14,6 +15,20 @@ const Filters = () => {
           defaultValue=''
         />
       </div>
+      <Button
+        type='submit'
+        size='sm'
+        className='self-end mb-2'
+      />
+      <Button
+        type='button'
+        asChild
+        size='sm'
+        variant='outline'
+        className='self-end mb-2'
+      >
+        <Link to='/products'>Reset</Link>
+      </Button>
     </Form>
   )
 }
