@@ -1,4 +1,4 @@
-const Loaders = () => {
+function Loading() {
   return (
     <div>
       <h1>Loaders</h1>
@@ -6,4 +6,4 @@ const Loaders = () => {
   )
 }
 
-export default Loaders
+export default Loading
