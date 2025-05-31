@@ -11,7 +11,7 @@ const HomeLayout = () => {
       <Header />
       <Navbar />
       <div className='align-element py-20'>
-        <Outlet />
+        {isPageLoading ? <Loading /> : <Outlet />}
       </div>
     </>  
   )
