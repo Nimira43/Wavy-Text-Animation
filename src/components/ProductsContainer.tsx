@@ -1,6 +1,8 @@
 import { useLoaderData } from 'react-router-dom'
 import { ProductsResponse } from '../utils'
 import { useState } from 'react'
+import { Button } from './ui/button'
+import { IoGridOutline } from 'react-icons/io5'
 
 const ProductsContainer = () => {
   const { meta } = useLoaderData() as ProductsResponse
@@ -8,9 +10,22 @@ const ProductsContainer = () => {
   const [layout, setLayout] = useState<'grid' | 'list'>
 
   return (
-    <div>
-      <h1>Products Container</h1>      
-    </div>
+    <section>
+      <div className='flex justify-between items-center mt-8'>
+        <h4 className='font-medium text-md'>
+          {totalProducts} product{totalProducts > 1 && 's'}
+        </h4>
+        <div className='flex gap-x-4'>
+          <Button
+            onClick={() => setLayout('grid')}
+            variant={layout === 'grid' ? 'default' : 'ghost'}
+            size='icon'
+          >
+            <IoGridOutline />
+          </Button>
+        </div>
+      </div>      
+    </section>
   )
 }
 
