@@ -18,7 +18,11 @@ const ProductsList = () => {
           >
             <Card>
               <CardContent className='p-8 gap-y-4 grid md:grid-cols-3'>
-                
+                <img 
+                  src={image}
+                  alt={title}
+                  className='h-64 w-full md:h-48 md:w-48 rounded-md object-cover'
+                />
               </CardContent>
             </Card>
 
