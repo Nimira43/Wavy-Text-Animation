@@ -11,7 +11,7 @@ export const loader: LoaderFunction = async (): Promise<ProductsResponse> => {
   return { ...response.data }
 }
 
-const ProductsList = () => {
+const Products= () => {
   return (
     <>
       <Filters />
@@ -21,4 +21,4 @@ const ProductsList = () => {
   )
 }
 
-export default ProductsList
+export default Products
