@@ -1,5 +1,5 @@
 import { Outlet, useNavigation } from 'react-router-dom'
-import { Header, Navbar, Loading } from '../components'
+import { Header, Loading, Navbar,} from '../components'
 
 
 const HomeLayout = () => {
