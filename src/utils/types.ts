@@ -34,7 +34,6 @@ export type Pagination = {
   total: number
 }
 
-
 export type Params = {
   search?: string
   category?: string
