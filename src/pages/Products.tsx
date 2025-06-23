@@ -10,7 +10,7 @@ const url = '/products'
 
 export const loader: LoaderFunction = async ({
   request,
-}): Promise<ProductsResponse> => {
+}): Promise<ProductsResponseWithParams> => {
   const params = Object.fromEntries([
     ...new URL(request.url).searchParams.entries(),
   ])
