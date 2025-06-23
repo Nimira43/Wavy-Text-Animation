@@ -35,7 +35,7 @@ export type Pagination = {
 }
 
 
-export type Params {
+export type Params = {
   search?: string
   category?: string
   company?: string
@@ -44,3 +44,5 @@ export type Params {
   shipping?: string
   page?: string
 }
+
+export type ProductsResponseWithParams = ProductsResponse & { params: Params}
