@@ -6,3 +6,19 @@
   box-sizing: border-box;
   font-family: 'Fredericka the Great', serif;
 }
+
+section {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #000;
+}
+
+section .text {
+  font-size: 3em;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  color: #ffd700;
+}
