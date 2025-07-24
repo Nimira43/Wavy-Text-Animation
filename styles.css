@@ -23,3 +23,8 @@ section .text {
   color: #ffd700;
 }
 
+.text span {
+  position: relative;
+  display: inline-block;
+  animation: wave 3s ease-in-out infinite;
+}
