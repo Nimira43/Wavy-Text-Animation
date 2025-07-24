@@ -17,7 +17,7 @@ section {
 }
 
 section .text {
-  font-size: 3em;
+  font-size: 6em;
   font-weight: lighter;
   letter-spacing: 2px;
   color: #ffd700;
